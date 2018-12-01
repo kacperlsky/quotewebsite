@@ -2,7 +2,9 @@ body {
     animation: colorchange 50s; /* animation-name followed by duration in seconds*/
        /* you could also use milliseconds (ms) or something like 2.5s */
     -webkit-animation: colorchange 50s;
-    animation-iteration-count: 100; /* Chrome and Safari */
+    animation-iteration-count: 100;
+    width: 100%;
+    height: 100% /* Chrome and Safari */
   }
 
   @keyframes colorchange
