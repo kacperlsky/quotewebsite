@@ -4,7 +4,8 @@ body {
     -webkit-animation: colorchange 50s;
     animation-iteration-count: 100;
     width: 100%;
-    height: 100% /* Chrome and Safari */
+    height: 100%;/* Chrome and Safari */
+    margin:0;
   }
 
   @keyframes colorchange
